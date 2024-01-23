@@ -11,14 +11,10 @@
 //
 // Make me pass the tests!
 //
-<<<<<<< HEAD:exercises/11_hashmaps/hashmaps2.rs
 // Execute `rustlings hint hashmaps2` or use the `hint` watch subcommand for a
 // hint.
-=======
-// Execute `rustlings hint hashmaps2` or use the `hint` watch subcommand for a hint.
 
 // I AM NOT DONE
->>>>>>> 52b3f7e (reset):exercises/hashmaps/hashmaps2.rs
 
 use std::collections::HashMap;
 
@@ -41,15 +37,9 @@ fn fruit_basket(basket: &mut HashMap<Fruit, u32>) {
     ];
 
     for fruit in fruit_kinds {
-<<<<<<< HEAD:exercises/11_hashmaps/hashmaps2.rs
         // TODO: Insert new fruits if they are not already present in the
         // basket. Note that you are not allowed to put any type of fruit that's
         // already present!
-=======
-        // TODO: Put new fruits if not already present. Note that you
-        // are not allowed to put any type of fruit that's already
-        // present!
->>>>>>> 52b3f7e (reset):exercises/hashmaps/hashmaps2.rs
     }
 }
 
@@ -91,7 +81,7 @@ mod tests {
         let count = basket.values().sum::<u32>();
         assert!(count > 11);
     }
-
+    
     #[test]
     fn all_fruit_types_in_basket() {
         let mut basket = get_fruit_basket();

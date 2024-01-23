@@ -35,7 +35,7 @@ impl Package {
         // Something goes here...
     }
 
-    fn get_fees(&self, cents_per_gram: i32) -> ??? {
+    fn get_fees(&self, cents_per_gram: u32) -> ??? {
         // Something goes here...
     }
 }
